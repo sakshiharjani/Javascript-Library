@@ -1,0 +1,91 @@
+body, html {
+  margin: 0vmin;
+  padding: 0vmin;
+  width: 100%;
+
+}
+#mainContainer {
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  font-family: montserrat, sans-serif;
+}
+
+
+#headerContainer {
+  margin-left: 50vmin;
+  margin-right: 2vmin;
+  text-align: right;
+}
+
+#header {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 6vmin;
+  text-decoration: underline;
+
+}
+
+#tagLine {
+  /* margin-left: 77vmin; */
+  font-style: italic;
+  text-decoration: none;
+  font-weight: 200;
+  font-size: 3vmin;
+  margin-right: 1vmin;
+}
+
+
+
+
+
+#mainPictureVertical {
+  margin-left: 20px;
+  width: 28vw;
+  min-width: 270px;
+  height: 39vw;
+  min-height: 360px;
+  border-style: inset;
+  border-width: 15px;
+  border-color: #404040;
+  box-shadow: 10px 10px 5px grey;
+  margin-bottom: 5%;
+}
+
+#mainPictureHorizontal {
+  margin-left: 20px;
+  margin-top: 25%;
+  /* margin-left: 2vw;
+  margin-right: 2vw; */
+  width: 30vw;
+  min-width: 340px;
+  height: 21vw;
+  min-height: 260px;
+  border-style: inset;
+  border-width: 15px;
+  border-color: #404040;
+  box-shadow: 10px 10px 5px grey;
+  margin-bottom: 5%;
+}
+
+
+
+
+
+#footer {
+  width: 100%;
+  background-color: #000000;
+  margin: 10% 0px 0px 0px;
+  position: absolute;
+}
+
+#footerContents{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 15%;
+  color: white;
+}
+
+p a {
+  color: white;
+}
